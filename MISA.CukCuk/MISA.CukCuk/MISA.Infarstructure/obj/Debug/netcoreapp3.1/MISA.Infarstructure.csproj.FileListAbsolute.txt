@@ -1,0 +1,60 @@
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csprojAssemblyReference.cache
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfoInputs.cache
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfo.cs
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CoreCompileInputs.cache
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.deps.json
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CopyComplete
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\hnanh\Desktop\Fresher102020\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csprojAssemblyReference.cache
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfoInputs.cache
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfo.cs
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CoreCompileInputs.cache
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.deps.json
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\hnanh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CopyComplete
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csprojAssemblyReference.cache
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfoInputs.cache
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfo.cs
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CoreCompileInputs.cache
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.deps.json
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\Nam Anh\Desktop\honamanh\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CopyComplete
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.deps.json
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csprojAssemblyReference.cache
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfoInputs.cache
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfo.cs
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CoreCompileInputs.cache
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CopyComplete
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\Nam Anh\Desktop\WEB2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.deps.json
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csprojAssemblyReference.cache
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfoInputs.cache
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfo.cs
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CoreCompileInputs.cache
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CopyComplete
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\hnanh\Desktop\WEB_2020_10_HNANH\MISA.CukCuk\MISA.CukCuk\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
