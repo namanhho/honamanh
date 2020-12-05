@@ -210,6 +210,7 @@ table tbody tr:hover {
     height: 30px;
     border: 1px solid #bbbbbb;
     margin: 0 3px;
+    outline: none;
 }
 
 .button-change-page-select {

@@ -12,6 +12,8 @@ class Base {
         this.initEvent();
         this.loadData();
         this.loadComboboxData();
+
+        this.currentNumberPosition = 1;
     }
     setEndPoint() {
 
@@ -125,7 +127,151 @@ class Base {
         })
 
         //sự kiện click khi ấn nút chuyển trang
-        $(".button-bottom-bar").focus(this.btnChangePageOnFocus);
+        //$(".button-bottom-bar").focus(this.btnChangePageOnFocus);
+
+        $(".button-change-page-number").click(function () {
+            //debugger;
+            var currentNumberPosition = me.currentNumberPosition;
+            var numberPagePositionOnClick = Number.parseInt($(this).attr("numberPage"));
+
+            if (numberPagePositionOnClick > 3) {
+                var increaseNumber = numberPagePositionOnClick - 3;
+                me.currentNumberPosition = 3;
+                var btnChangePages = $(".button-change-page-number");
+                $.each(btnChangePages, function (index, btnChangepage) {
+                    var currentPageNumber = Number.parseInt($(this).text());
+                    $(this).text(currentPageNumber + increaseNumber);
+
+                    if (index == 2) {
+                        $(this).siblings().removeClass("button-change-page-select");
+                        $(this).addClass("button-change-page-select");
+                    }
+                    debugger;
+                })
+            }
+            else {
+                currentNumberPosition = numberPagePositionOnClick;
+
+                //khoảng cách lùi
+                var reduceNumber = 3 - numberPagePositionOnClick
+                // Lấy ra số trang hiện tại ở nửa trước
+                var currentPageNumber = Number.parseInt($(this).text());
+
+                //So sánh số trang đó với 3, 
+                //+nếu lớn hơn tiến hành lùi số trang và xét vị trí chọn vẫn ở giữa, 
+                if (currentPageNumber >= 3) {
+                    me.currentNumberPosition = 3;
+                    var btnChangePages = $(".button-change-page-number");
+                    $.each(btnChangePages, function (index, btnChangepage) {
+                        var currentPageNumber = Number.parseInt($(this).text());
+                        $(this).text(currentPageNumber - reduceNumber);
+
+                        if (index == 2) {
+                            $(this).siblings().removeClass("button-change-page-select");
+                            $(this).addClass("button-change-page-select");
+                        }
+                        debugger;
+                    })
+                }
+                else {
+                    // nếu vị trí nút ở đầu nhưng lại có số trang là 2 thì lúc này chỉ có thể giảm 1 và vị trí đổi màu phải ở 2
+                    if (currentNumberPosition == 1 && currentPageNumber == 2) {
+                        me.currentNumberPosition = 2;
+                        reduceNumber = 1;
+                        var btnChangePages = $(".button-change-page-number");
+                        $.each(btnChangePages, function (index, btnChangepage) {
+                            var currentPageNumber = Number.parseInt($(this).text());
+                            $(this).text(currentPageNumber - reduceNumber);
+
+                            if (index == 1) {
+                                $(this).siblings().removeClass("button-change-page-select");
+                                $(this).addClass("button-change-page-select");
+                            }
+                            debugger;
+                        })
+                    }
+                    else {
+                        debugger
+                        me.currentNumberPosition = $(this).text();
+                        $(this).siblings().removeClass("button-change-page-select");
+                        $(this).addClass("button-change-page-select");
+                    }
+                }
+                //+nếu nhỏ hơn thì chỉ đổi màu
+            }
+        })
+        $(".button-nav-page .button-back-page").click(function () {
+            debugger
+            var currentNumberPosition = me.currentNumberPosition;
+            var currentPageNumber = 3;
+            var btnChangePages = $(".button-change-page-number");
+            $.each(btnChangePages, function (index, btnChangepage) {
+                if (index == currentNumberPosition - 1) {
+                    currentPageNumber = Number.parseInt($(this).text());
+                }
+            })
+            if (currentPageNumber > 3) {
+                currentNumberPosition = 3;
+                var btnChangePages = $(".button-change-page-number");
+                $.each(btnChangePages, function (index, btnChangepage) {
+                    var pageNumber= $(this).text();
+                    $(this).text(pageNumber-1);
+                })
+            }
+            else {
+                if (currentNumberPosition > 1) {
+                    currentNumberPosition--;
+                    me.currentNumberPosition = currentNumberPosition;
+                }
+                else {
+                    return;
+                }
+                var btnChangePages = $(".button-change-page-number");
+                $.each(btnChangePages, function (index, btnChangepage) {
+                    if (index == currentNumberPosition -1) {
+                        $(this).siblings().removeClass("button-change-page-select");
+                        $(this).addClass("button-change-page-select");
+                    }
+                })
+            }
+        })
+
+        $(".button-bottom-bar .button-next-page").click(function () {
+            debugger
+            var currentNumberPosition = me.currentNumberPosition;
+            var currentPageNumber = 3;
+            var btnChangePages = $(".button-change-page-number");
+            $.each(btnChangePages, function (index, btnChangepage) {
+                if (index == currentNumberPosition + 1) {
+                    currentPageNumber = Number.parseInt($(this).text());
+                }
+            })
+            if (currentPageNumber > 3) {
+                currentNumberPosition = 3;
+                var btnChangePages = $(".button-change-page-number");
+                $.each(btnChangePages, function (index, btnChangepage) {
+                    var pageNumber = $(this).text();
+                    $(this).text(pageNumber + 1);
+                })
+            }
+            else {
+                //if (currentNumberPosition > 1) {
+                //    currentNumberPosition--;
+                //    me.currentNumberPosition = currentNumberPosition;
+                //}
+                //else {
+                //    return;
+                //}
+                var btnChangePages = $(".button-change-page-number");
+                $.each(btnChangePages, function (index, btnChangepage) {
+                    if (index == currentNumberPosition + 1) {
+                        $(this).siblings().removeClass("button-change-page-select");
+                        $(this).addClass("button-change-page-select");
+                    }
+                })
+            }
+        })
+       
         //#endregion "Sự kiện với chuột"
 
         //#region "Validate Kiểm tra input"

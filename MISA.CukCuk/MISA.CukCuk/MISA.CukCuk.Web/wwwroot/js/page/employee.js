@@ -26,8 +26,10 @@
 })
 
 class EmployeeJs extends Base {
+
     constructor() {
         super();
+       
         //  this.initEvent();
     }
     initEvent() {
