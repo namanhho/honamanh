@@ -10,10 +10,11 @@ class Base {
         this.setEndPoint();
         this.setObjName();
         this.initEvent();
+        this.currentNumberPosition = 1;
+        this.currentPageNumber = 1;
         this.loadData();
         this.loadComboboxData();
 
-        this.currentNumberPosition = 1;
     }
     setEndPoint() {
 
@@ -143,6 +144,7 @@ class Base {
                     $(this).text(currentPageNumber + increaseNumber);
 
                     if (index == 2) {
+                        me.currentPageNumber = Number.parseInt($(this).text());
                         $(this).siblings().removeClass("button-change-page-select");
                         $(this).addClass("button-change-page-select");
                     }
@@ -167,6 +169,7 @@ class Base {
                         $(this).text(currentPageNumber - reduceNumber);
 
                         if (index == 2) {
+                            me.currentPageNumber = Number.parseInt($(this).text());
                             $(this).siblings().removeClass("button-change-page-select");
                             $(this).addClass("button-change-page-select");
                         }
@@ -184,6 +187,7 @@ class Base {
                             $(this).text(currentPageNumber - reduceNumber);
 
                             if (index == 1) {
+                                me.currentPageNumber = Number.parseInt($(this).text());
                                 $(this).siblings().removeClass("button-change-page-select");
                                 $(this).addClass("button-change-page-select");
                             }
@@ -192,7 +196,8 @@ class Base {
                     }
                     else {
                         debugger
-                        me.currentNumberPosition = $(this).text();
+                        me.currentNumberPosition = Number.parseInt($(this).text());
+                        me.currentPageNumber = Number.parseInt($(this).text());
                         $(this).siblings().removeClass("button-change-page-select");
                         $(this).addClass("button-change-page-select");
                     }
@@ -212,10 +217,14 @@ class Base {
             })
             if (currentPageNumber > 3) {
                 currentNumberPosition = 3;
+                me.currentNumberPosition = 3;
                 var btnChangePages = $(".button-change-page-number");
                 $.each(btnChangePages, function (index, btnChangepage) {
                     var pageNumber= $(this).text();
-                    $(this).text(pageNumber-1);
+                    $(this).text(pageNumber - 1);
+                    if (index == 2) {
+                        me.currentPageNumber = Number.parseInt($(this).text());
+                    }
                 })
             }
             else {
@@ -228,7 +237,8 @@ class Base {
                 }
                 var btnChangePages = $(".button-change-page-number");
                 $.each(btnChangePages, function (index, btnChangepage) {
-                    if (index == currentNumberPosition -1) {
+                    if (index == currentNumberPosition - 1) {
+                        me.currentPageNumber = Number.parseInt($(this).text());
                         $(this).siblings().removeClass("button-change-page-select");
                         $(this).addClass("button-change-page-select");
                     }
@@ -236,22 +246,25 @@ class Base {
             }
         })
 
-        $(".button-bottom-bar .button-next-page").click(function () {
+        $(".button-nav-page .button-next-page").click(function () {
             debugger
             var currentNumberPosition = me.currentNumberPosition;
             var currentPageNumber = 3;
             var btnChangePages = $(".button-change-page-number");
             $.each(btnChangePages, function (index, btnChangepage) {
-                if (index == currentNumberPosition + 1) {
+                if (index == currentNumberPosition - 1) {
                     currentPageNumber = Number.parseInt($(this).text());
                 }
             })
-            if (currentPageNumber > 3) {
-                currentNumberPosition = 3;
+            if (currentPageNumber >= 3) {
+                me.currentNumberPosition = 3;
                 var btnChangePages = $(".button-change-page-number");
                 $.each(btnChangePages, function (index, btnChangepage) {
-                    var pageNumber = $(this).text();
+                    var pageNumber = Number.parseInt($(this).text());
                     $(this).text(pageNumber + 1);
+                    if (index == me.currentNumberPosition) {
+                        me.currentPageNumber = Number.parseInt($(this).text()) + 1;
+                    }
                 })
             }
             else {
@@ -264,12 +277,26 @@ class Base {
                 //}
                 var btnChangePages = $(".button-change-page-number");
                 $.each(btnChangePages, function (index, btnChangepage) {
-                    if (index == currentNumberPosition + 1) {
+                    if (index == currentNumberPosition) {
+                        me.currentNumberPosition = currentNumberPosition +1;
+                        me.currentPageNumber = Number.parseInt($(this).text());
                         $(this).siblings().removeClass("button-change-page-select");
                         $(this).addClass("button-change-page-select");
                     }
                 })
             }
+        })
+
+        $(".button-nav-page .button-bottom-bar, .button-control-show .button-change-show-table").click(function () {
+            //Lấy dữ liệu để phân trang
+            var currentNumberPosition = me.currentNumberPosition;
+            var currentPageNumber = me.currentPageNumber;
+            var limit = $(".button-change-show-table").val();
+            var offset = (me.currentPageNumber - 1) * limit;
+            var query = "";
+            var pagingQuery = query.concat("/paging?limit=", limit, "&offset=", offset);
+            me.endPoint = pagingQuery;
+            me.loadData();
         })
        
         //#endregion "Sự kiện với chuột"
@@ -351,6 +378,16 @@ class Base {
     loadData() {
         var me = this;
         try {
+            debugger
+            ////Lấy dữ liệu để phân trang
+            //var currentNumberPosition = me.currentNumberPosition;
+            //var currentPageNumber = me.currentPageNumber;
+            //var limit = $(".button-change-show-table").val();
+            //var offset = (me.currentPageNumber - 1) * limit;
+            //var query = "";
+            //var pagingQuery = query.concat("/paging?limit=", limit, "&offset=", offset);
+            //me.endPoint = pagingQuery;
+
             //debugger
             var entityId = me.objName + "Id";
             $(".loading").show();

@@ -49,6 +49,7 @@ class EmployeeJs extends Base {
             me.endPoint = queryString;
             me.reLoadData();
         })
+
     }
     /**
      * Hàm load lại dữ liệu

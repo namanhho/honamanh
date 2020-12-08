@@ -39,6 +39,12 @@ namespace MISA.Infarstructure
             return employees;
 
         }
+
+        public IEnumerable<Employee> GetEmployeesPaging(int limit, int offset)
+        {
+            var employees = _dbConnection.Query<Employee>("Proc_GetEmployeesPaging", new { RecordPerPage = limit, CurentPage = offset }, commandType: CommandType.StoredProcedure);
+            return employees;
+        }
         #endregion
     }
 }

@@ -24,5 +24,14 @@ namespace MISA.ApplicationCore.Interfaces
         /// <returns>Khách hàng</returns>
         /// CreatedBy: HNANH (26/11/2020)
         Employee GetEmployeeByCode(string employeeCode);
+
+        /// <summary>
+        ///Lấy danh sách nhân viên phân trang
+        /// </summary>
+        /// <param name="limit">Số bản ghi trên trang</param>
+        /// <param name="ofset">Số bản ghi trang hiện tại</param>
+        /// <returns>Dánh sách nhân viên</returns>
+        /// CrceatedBy: HNANH(07/12/2020)
+        IEnumerable<Employee> GetEmployeesPaging(int limit, int offset);
     }
 }

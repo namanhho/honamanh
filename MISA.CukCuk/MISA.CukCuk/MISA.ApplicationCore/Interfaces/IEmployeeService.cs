@@ -27,5 +27,7 @@ namespace MISA.ApplicationCore.Interfaces
         /// <returns>Danh sách nhân viên</returns>
         /// CreatedBy: HNANH (03/12/2020)
         IEnumerable<Employee> GetEmployeesFilter(string searchText, Guid? departmentId, Guid? positionId);
+
+        IEnumerable<Employee> GetEmployeesPaging(int limit, int offset);
     }
 }

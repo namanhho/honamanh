@@ -53,6 +53,13 @@ namespace MISA.CukCuk.Web.Controllers
         {
             return Ok(_employeeService.GetEmployeesFilter(searchText, departmentId, positionId));
         }
+
+        [HttpGet("paging")]
+        public IActionResult GetEmployeesPaging([FromQuery] int limit, [FromQuery] int offset)
+        {
+            return Ok(_employeeService.GetEmployeesPaging(limit, offset));
+        }
+
         #endregion
     }
 }

@@ -32,6 +32,11 @@ namespace MISA.ApplicationCore.Services
         {
             return _employeeRepository.GetEmployeesFilter(searchText, departmentId, positionId);
         }
+
+        public IEnumerable<Employee> GetEmployeesPaging(int limit, int offset)
+        {
+            return _employeeRepository.GetEmployeesPaging(limit, offset);
+        }
         #endregion
     }
 }
